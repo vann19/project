@@ -1,0 +1,35 @@
+{% extends 'layout.html' %} {% block head %}<title>halaman login</title>{% endblock %}
+
+
+{% block body %}
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="/static/login.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="daftar.html" method="post">
+        <h2>Masuk</h2>
+        <div class="input-field">
+          <input type="text" required />
+          <label>Username</label>
+        </div>
+        <div class="input-field">
+          <input type="password" required />
+          <label>Password</label>
+        </div>
+        <div class="tombol">
+          <button type="submit" class="daftar">DAFTAR</button>
+          <button type="submit" class="masuk">MASUK</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+
+{% block head %}<title>halaman daftar akun</title>{% endblock %}
+
+
+{% block body %}
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar</title>
+    <link rel="stylesheet" href="/static/daftar.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="#">
+        <h2>DAFTAR AKUN</h2>
+        <div class="input-field">
+          <input type="text" required />
+          <label>Masukan Nama</label>
+        </div>
+        <div class="input-field">
+          <input type="password" required />
+          <label>Buat Kata Sandi</label>
+        </div>
+        <div class="btn-primary btn-lg justify-content-center">
+          <button type="submit" class="daftar btn-center">BUAT AKUN</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+{% endblock %}

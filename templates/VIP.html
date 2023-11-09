@@ -1,0 +1,53 @@
+{% extends 'layout.html' %} 
+
+{% block head %}<title>halaman login</title>{% endblock %} {}
+
+
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>VIP</title>
+  <link rel="stylesheet" href="/static/VIP.css">
+</head>
+
+<body>
+  <section class="about-us">
+    <div class="about">
+        <div class="card" style="width: 18rem;">
+            <img src="/static/foto1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+      <section class="container">
+        <header>KATEGORI VIP</header>
+        <form action="#" class="form">
+        <div class="input-box">
+          <label>EMAIL</label>
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+
+        <div class="input-box">
+          <label>NAMA PEMESAN</label>
+          <input type="text" placeholder="Enter email address" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>TANGGAL LAHIR</label>
+            <input type="date" placeholder="Enter birth date" required />
+          </div>
+        </div>
+        <button>PESAN</button>
+        </form>
+    </section>
+    </div>
+  </section>
+</body>
+</html>
+{% endblock %}

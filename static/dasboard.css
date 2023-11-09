@@ -1,0 +1,37 @@
+/* buaat scrol */
+/* body{
+    min-height: 2000px;
+} */
+
+
+
+.jumbotron{
+    width: 100%;
+}
+
+.card{
+   margin-top: 50px;
+   margin-bottom: 40%;
+}
+
+.btn{
+    display:flex ;
+    justify-content: end;
+    width: 150px;
+    margin-left: auto;
+}
+
+.about{
+    padding-top: 2rem;
+}
+
+
+.footer{
+   margin-top: 20%;
+   background: rgba(0, 0, 0, 0.76);
+   height: 400px;
+   text-align: end;
+   padding-right: 30px;
+   padding-top: 10%;
+}
+
